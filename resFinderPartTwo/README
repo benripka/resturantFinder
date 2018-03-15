@@ -1,0 +1,50 @@
+Ben Ripka
+ID 1465622
+Evan Perret Timms
+ID 1504825
+
+Notes: Some code(along with comments) provided in class was reused indirectly throughout the assignment
+accessories:
+*1 Arduino Mega Board
+*1 joystick
+*1 LCD touchscreen
+*1 SD card w/ map of edmonton+restaurant data
+
+Wiring: from bottom to top on the right side (the side with the pins).
+
+Board Pin <---> Arduino Pin
+===========================
+GND             GND
+Vin             5V
+3Vo             NOT CONNECTED
+CLK             52
+MISO            50
+MOSI            51
+CS              10
+D/C             9
+RST             NOT CONNECTED
+Lite            NOT CONNECTED
+Y+              A2 (analog pin)
+X+              4  (digital pin)
+Y-              5  (digital pin)
+X-              A3 (analog pin)
+IM0 - IM3       NOT CONNECTED (they expect a 3.3v signal, DON'T CONNECT!)
+CCS             6
+CD              NOT CONNECTED
+
+===========================
+
+Joy Pin <---> Arduino Pin
+===========================
+
+GND						GND
+5V						5V
+VRx						A1
+VRy						A0
+SW						2
+
+===========================
+
+Instructions:
+1. Insert SD card
+2. Compile and upload code
